@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="form">
+        <form>
+            <label for="name">Name:</label>
+        <input type="text" placeholder="enter your name" id="nameinput">
+        <span id="nameError"></span><br><br>
+         <label for="email">E-mail:</label>
+        <input type="email" placeholder="enter your email" id="email">
+        <span id="emailError"></span><br><br>
+            <label for="password">Password:</label>
+        <input type="password" placeholder="enter your password" id="password">
+        <span id="passwordError"></span><br><br>
+        <textarea id="message" placeholder="Type your message"></textarea><br>
+
+        <p id="counter">0/200 characters</p>
+        <p id="warning" style="color:red"></p>
+        <button type="submit" id="submitBtn" disabled>submit</button><br><br>
+    </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

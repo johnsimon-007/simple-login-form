@@ -1,0 +1,46 @@
+body{
+     font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 0px;
+    background-color:#fafafa ;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 50px;
+    background-color:gray;
+    width: fit-content;
+    border-radius: 20px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+}
+input:focus, textarea:focus {
+    border-color: #4f46e5;
+}
+button:disabled {
+    background: #a5b4fc;
+    cursor: not-allowed;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
